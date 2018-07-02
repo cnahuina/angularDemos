@@ -12,7 +12,6 @@ import { MyDashboardComponent } from './my-dashboard/my-dashboard.component';
 import { MyTableComponent } from './my-table/my-table.component';
 import { ReportePorCiaComponent } from './reporte-por-cia/reporte-por-cia.component';
 import { ReportePorIncidenciaComponent } from './reporte-por-incidencia/reporte-por-incidencia.component';
-
 import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
 import { MyDialogComponent } from './my-dialog/my-dialog.component';
 import { TooltipDemoComponent } from './tooltip-demo/tooltip-demo.component';
