@@ -1,0 +1,9 @@
+.example-card {
+  max-width: 400px;
+  margin: 0.5%;
+}
+
+.example-header-image {
+  background-image: url('https://img.peru21.pe/files/ec_article_multimedia_gallery/uploads/2017/08/11/598e051dd6bd9.jpeg');
+  background-size: cover;
+}
