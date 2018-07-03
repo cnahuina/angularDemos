@@ -16,10 +16,12 @@ import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
 import { MyDialogComponent } from './my-dialog/my-dialog.component';
 import { TooltipDemoComponent } from './tooltip-demo/tooltip-demo.component';
 import { SnackBarDemoComponent } from './snack-bar-demo/snack-bar-demo.component';
+import { AdminComponent } from './admin/admin.component';
 
 const appRoutes: Routes = [
   {path: 'reporte-por-cia', component: ReportePorCiaComponent},
-  {path: 'reporte-por-incidencia',component: ReportePorIncidenciaComponent}
+  {path: 'reporte-por-incidencia',component: ReportePorIncidenciaComponent},
+  {path: 'admin', component: AdminComponent}
 ];
 
 @NgModule({
@@ -33,7 +35,8 @@ const appRoutes: Routes = [
     DialogDemoComponent,
     MyDialogComponent,
     TooltipDemoComponent,
-    SnackBarDemoComponent
+    SnackBarDemoComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
